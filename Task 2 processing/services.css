@@ -1,0 +1,2241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.container-nav {
+    height: 100%;
+}
+
+nav ul {
+    padding-top: 15px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    margin: 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav li a {
+    font-size: 23px;
+    text-decoration: none;
+    padding-left: 17px;
+    color: black;
+}
+
+.container-fir {
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.firtex {
+    float: left;
+    width: 50%;
+}
+
+.text {
+    font-size: 26px;
+    width: 50%;
+    margin-top: 50px;
+    padding: 0px 29px;
+}
+
+.tick {
+    font-size: 22px;
+    margin: 22px 29px;
+    padding: 3px;
+}
+
+.fa-check {
+    color: orangered;
+    margin-right: 10px;
+}
+
+.buton {
+    margin: 0px 23px;
+    padding: 0px 4px;
+}
+
+.btn {
+    background-color: rgb(33, 29, 241);
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 17px 30px;
+    margin: 5px 12px;
+    border: rgb(187, 3, 3);
+}
+
+.btn2 {
+    background-color: orangered;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 17px 12px;
+    margin: 0px 8px;
+    border: rgb(187, 3, 3);
+}
+
+.firstp {
+    justify-content: flex-start;
+    display: flex;
+    float: right;
+    padding-top: 100px;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.first {
+    float: right;
+    width: 462px;
+    height: 248px;
+}
+
+.container-bg {
+    background-color: rgb(75, 99, 233);
+}
+
+.bign {
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 2px;
+    padding: 33px 0;
+
+}
+
+.logos {
+    margin: 28px;
+}
+
+.next {
+    margin: 50px 6px;
+    height: 400px;
+}
+
+.sce {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.l1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hh {
+    margin: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.para2 {
+    margin: 0px 38px;
+    font-size: 24px;
+}
+
+.secondp {
+    display: flex;
+    justify-content: flex-start;
+    float: right;
+    padding-top: 95px;
+    width: 50%;
+}
+
+.second {
+    float: right;
+    width: 462px;
+    height: 248px;
+}
+
+.container-bg2 {
+    background-color: rgb(245, 146, 34);
+    height: 50%;
+    color: white;
+}
+
+.img3 {
+    float: left;
+    margin: 107px 42px;
+}
+
+.third {
+    float: left;
+    width: 500px;
+    height: 283px;
+}
+
+.para3 {
+    margin: 6px 0px;
+    padding: 124px 48px;
+}
+
+.hh3 {
+    font-size: 32px;
+}
+
+.pa3 {
+    padding: 12px;
+    font-size: 27px;
+}
+
+.for {
+    margin: 0px auto;
+    height: 421px;
+}
+
+.four {
+    width: 50%;
+    height: 16%;
+}
+
+.hh {
+    margin: 35px;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.hh4 {
+    padding-left: 22px;
+    /* padding-right: 53px; */
+    margin: 14px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.para4 {
+    font-size: 26px;
+    margin: 22px 45px;
+}
+
+.fourthp {
+    display: flex;
+    justify-content: flex-start;
+    float: right;
+    padding-top: 0px;
+    width: 50%;
+}
+
+.fourth {
+    float: right;
+    width: 460px;
+    height: 240px;
+}
+
+.ser {
+    text-align: center;
+    padding-top: 44px;
+    margin-bottom: 60px;
+    font-size: 42px;
+    position: relative;
+    color: white;
+    font-weight: lighter;
+}
+
+.row {
+    padding: 0px 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+    grid-gap: 21px;
+}
+
+.ser-h {
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.ser-p {
+    font-weight: lighter;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    margin: 22px;
+}
+
+.butonfo {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 80px 8px;
+}
+
+.btnf1 {
+    background-color: rgb(158, 156, 250);
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 22px 42px;
+    margin: 0px 8px;
+    border: rgb(187, 3, 3);
+}
+
+.btnf2 {
+    background-color: orangered;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 22px 42px;
+    margin: 0px 8px;
+    border: rgb(187, 3, 3);
+}
+
+.fifth-h {
+    margin: 14px 92px;
+    font-weight: lighter;
+    font-size: 61px;
+    text-align: center;
+}
+
+.grid-container {
+    padding: 0px 26px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Displays 3 columns */
+    grid-gap: 32px;
+    /* Adds some spacing between grid items */
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-item img {
+    margin: 8px 83px;
+    max-width: 50%;
+    max-height: 30%;
+}
+
+.desc {
+    text-align: center;
+    font-size: 20px;
+}
+
+.hfif {
+    font-size: 24px;
+    text-align: center;
+    margin: 18px 0px;
+}
+
+.pp0 {
+    padding: 0px 14px;
+}
+.container-bgp {
+    background-color: rgb(245, 146, 34);
+    height: 427px;
+    color: white;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+
+.hh5 {
+    padding: 38px;
+    font-size: 46px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    margin: 30px;
+    padding: 45PX;
+}
+
+.ph1 {
+    height: 97px;
+    width: 127px;
+    border-radius: 50%;
+}
+
+.container-bg3 {
+    background-color: rgb(203, 203, 236);
+}
+
+.seven {
+    height: 50%;
+
+}
+
+.hed {
+    text-align: center;
+    font-size: 34px;
+    padding: 29px;
+}
+
+.p-hed {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.accordion {
+    background-color: whitesmoke;
+    color: orangered;
+    cursor: pointer;
+    font-size: 22px;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.accordion i {
+    font-size: 1.6rem;
+}
+
+.panel {
+    padding: 0 2.5rem 2rem 2.5rem;
+    overflow: hidden;
+}
+
+.panel p {
+    color: black;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.fa-plus {
+    color: white;
+    border-radius: 60%;
+    background-color: orangered;
+}
+
+.ppp {
+    color: orangered;
+}
+
+.img8 {
+    float: left;
+    margin: 101px 47px;
+}
+
+.eight {
+    float: left;
+    width: 535px;
+    height: 282px;
+}
+
+.para8 {
+    margin: 0px 3px;
+    padding: 97px 50px;
+}
+
+.hh8 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.pa8 {
+    padding: 23px;
+    font-size: 28px;
+}
+
+.butonfor {
+    display: flex;
+    justify-content: center;
+    padding: 21px 0px;
+}
+
+.btnf3 {
+    background-color: rgb(158, 156, 250);
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 16px 26px;
+    margin: 0px 11px;
+    border: rgb(187, 3, 3);
+}
+
+.btnf4 {
+    background-color: orangered;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 16px 26px;
+    margin: 0px 0px;
+    border: rgb(187, 3, 3);
+}
+
+.container-bg9 {
+    background-color: rgb(75, 99, 233);
+    padding-bottom: 10px;
+}
+
+.hh9 {
+    padding: 53px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.pp9 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.sevices {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 68px 0px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px 33px;
+    padding: 35px 59px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: bisque;
+    transition: 0.4s;
+}
+
+.card .icon1 {
+    border-radius: 50%;
+    color: white;
+    background-color: orangered;
+    font-size: 47px;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    margin-bottom: 13px;
+    color: #29292e;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+footer {
+    padding: 30px;
+}
+
+.pp10 {
+    color: rgb(111, 111, 240);
+}
+
+.container-bg11 {
+    background-color: #29292e;
+}
+
+.pp12 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+/*Responsiveness*/
+/* navbar */
+@media screen and (max-width: 1070px) {
+    .container {
+        max-width: 770px;
+        margin: 0px auto;
+    }
+
+    nav ul {
+        padding-top: 15px;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav li {
+        margin: 0px;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .nav li a {
+        font-size: 25px;
+        text-decoration: none;
+        padding-left: 14px;
+        color: black;
+    }
+
+    /* 2nd portion*/
+    .container-fir {
+        width: 770px;
+        height: 590px;
+        padding-left: 10px;
+        margin: 0px auto;
+    }
+
+    .firtex {
+        width: 50%;
+    }
+
+    .text {
+        font-size: 33px;
+        width: 50%;
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    .tick {
+        font-size: 20px;
+        margin: 22px 0px;
+        padding: 0px;
+    }
+
+    .buton {
+        margin: 0px 56px;
+        padding: 4px 5px;
+    }
+
+    .btn {
+        background-color: rgb(33, 29, 241);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 12px 14px;
+        margin: 0px 5px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btn2 {
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 13px 4px;
+        margin: 0px 3px;
+        border: rgb(187, 3, 3);
+    }
+
+    .firstp {
+        display: flex;
+        justify-content: center;
+        /* float: right; */
+        padding-top: 220px;
+        width: 50%
+    }
+
+    .first {
+        width: 347px;
+        height: 238px;
+    }
+
+    /*3rd portion */
+    .container-bg {
+        max-width: 1024px;
+        background-color: rgb(75, 99, 233);
+    }
+
+    .bign {
+        justify-content: space-between;
+        display: flex;
+        margin: 0px;
+        padding: 26px 0;
+
+    }
+
+    .logos {
+        margin: 15px;
+    }
+
+    /*4th Portion */
+    .next {
+        text-align: center;
+        margin: 0px 6px;
+        height: 450px;
+    }
+
+    .sce {
+        width: 50%;
+    }
+
+    .hh {
+        margin: 56px 0px;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+
+    .para2 {
+        padding: 4px 0px;
+        /* margin: 5px 21px; */
+        font-size: 20px;
+    }
+
+    .secondp {
+        display: flex;
+        justify-content: center;
+        /* float: right; */
+        padding-top: 136px;
+        width: 50%;
+    }
+
+    .second {
+        width: 347px;
+        height: 215px;
+    }
+
+    /*5th portion */
+    .main-con {
+        text-align: center;
+        margin: 0px 6px;
+    }
+
+    .container-bg2 {
+        max-width: 1024px;
+        background-color: rgb(245, 146, 34);
+        height: 323px;
+        color: white;
+    }
+
+    .img3 {
+        width: 50%;
+        /* float: left; */
+        margin: 27px;
+    }
+
+    .third {
+        width: 349px;
+        height: 214px;
+    }
+
+    .para3 {
+        margin: 0px;
+        padding: 10px 0px;
+    }
+
+    .hh3 {
+        margin: 9px 38px;
+        font-size: 32px;
+    }
+
+    .pa3 {
+        margin: 13px;
+        font-size: 20px;
+    }
+     /*6th portion */
+     .for {
+        margin: 13px 0px;
+        height: 360px;
+    }
+
+    .four {
+       text-align: center;
+        width: 50%;
+    }
+
+    .hh4 {
+        margin: 28px;
+        font-size: 31px;
+        font-weight: bolder;
+    }
+
+    .para4 {
+        font-size: 21px;
+        margin: 38px 15px;
+    }
+
+    .fourthp {
+        display: flex;
+        justify-content: center;
+        /* float: right; */
+        padding-top: 0px;
+        width: 50%;
+    }
+
+    .fourth {
+        width: 347px;
+        height: 215px;
+    }
+     /*7th portion */
+     .ser {
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 54px;
+        font-size: 35px;
+        position: relative;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+        grid-gap: 80px;
+    }
+
+    .ser-h {
+        font-size: 28px;
+        text-align: center;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .ser-p {
+        font-weight: lighter;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin: 21px;
+    }
+
+    .butonfo {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 41px 2px;
+    }
+
+    .btnf1 {
+        background-color: rgb(158, 156, 250);
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 22px 42px;
+        margin: 0px 8px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btnf2 {
+        background-color: orangered;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 22px 42px;
+        margin: 0px 8px;
+        border: rgb(187, 3, 3);
+    }
+    /*8th portion */
+    .fifth-h {
+        margin: 8px auto;
+        font-weight: lighter;
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Displays 3 columns */
+        grid-gap: 12px;
+        /* Adds some spacing between grid items */
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .grid-item img {
+        margin: 10px 82px;
+        max-width: 36%;
+        max-height: 26%;
+    }
+
+    .desc {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .hfif {
+        font-size: 24px;
+        text-align: center;
+        margin: 12px 0px;
+    }
+    /*9th portion */
+    .container-bgp {
+        max-width: 1024px;
+        background-color: rgb(245, 146, 34);
+        height: 435px;
+        color: white;
+    }
+    .pp0 {
+        font-size: 16px;
+        padding: 0px 18px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 1px;
+    }
+
+    .hh5 {
+        padding: 30px;
+        font-size: 32px;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        color: black;
+        margin: 15px;
+        padding: 40PX;
+    }
+
+    .ph1 {
+        height: 87px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    /*10th portion */
+    .container-bg3 {
+        background-color: rgb(203, 203, 236);
+    }
+
+    .seven {
+        height: 50%;
+
+    }
+
+    .hed {
+        text-align: center;
+        font-size: 30px;
+        padding: 18px;
+    }
+
+    .p-hed {
+        text-align: center;
+        font-size: 25px;
+        margin: 7px;
+    }
+
+    .wrapper {
+        max-width: 770px;
+        margin: 0px auto;
+    }
+
+    .accordion {
+        background-color: whitesmoke;
+        color: orangered;
+        cursor: pointer;
+        font-size: 20px;
+        width: 100%;
+        padding: 1.5rem 2rem;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .accordion i {
+        font-size: 1.3rem;
+    }
+
+    .panel {
+        padding: 0 2rem 1.5rem 2rem;
+        overflow: hidden;
+    }
+
+    .panel p {
+        color: black;
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+
+    .fa-plus {
+        color: white;
+        border-radius: 60%;
+        background-color: orangered;
+    }
+     /*11th portion */
+     .img8 {
+        width: 50%;
+    /* float: left; */
+    /* justify-content: center; */
+    margin: 14px;
+    }
+
+    .eight {
+        width: 347px;
+        height: 216px;
+    }
+
+    .para8 {
+        margin: 6px;
+        padding: 9px 0px;
+    }
+
+    .hh8 {
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .pa8 {
+        padding: 30px;
+        font-size: 21px;
+    }
+
+    .butonfor {
+        display: flex;
+        justify-content: center;
+        padding: 22px 0px;
+    }
+
+    .btnf3 {
+        background-color: rgb(158, 156, 250);
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 16px 26px;
+        margin: 0px 11px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btnf4 {
+        background-color: orangered;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 16px 26px;
+        margin: 0px 0px;
+        border: rgb(187, 3, 3);
+    }
+    /*12th portion */
+    .container-bg9 {
+        background-color: rgb(75, 99, 233);
+        padding-bottom: 1px;
+    }
+
+    .hh9 {
+        padding: 23px;
+        text-align: center;
+        color: white;
+        font-size: 37px;
+        font-weight: lighter;
+    }
+
+    .pp9 {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    .sevices {
+        width: 777px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 19px auto;
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        margin: 0px 30px;
+        padding: 8px 0px;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        background-color: bisque;
+        transition: 0.4s;
+    }
+
+    .card .icon1 {
+        border-radius: 38%;
+        color: white;
+        background-color: orangered;
+        font-size: 35px;
+        margin-bottom: 14px;
+    }
+
+    .card h2 {
+        font-weight: lighter;
+        font-size: 23px;
+        margin-bottom: 9px;
+        color: #29292e;
+    }
+
+    .card p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 1.3;
+    }
+     /*13th portion */
+    footer {
+        padding: 0px;
+    }
+
+    .pp10 {
+        color: rgb(111, 111, 240);
+    }
+
+    .container-bg11 {
+        background-color: #29292e;
+    }
+
+    .pp12 {
+        text-align: center;
+        color: white;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 430px;
+        margin: 0px auto;
+        padding-left: 10px;
+    }
+
+    .container-nav {
+        height: 100%;
+    }
+
+    nav ul {
+        padding-top: 15px;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav li {
+        margin: 0px;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .nav li a {
+        font-size: 25px;
+        text-decoration: none;
+        padding-left: 14px;
+        color: black;
+    }
+/*2nd portion*/
+    .container-fir {
+        text-align: center;
+    width: 430px;
+    height: 680px;
+    margin: 32px auto;
+    }
+
+    .firtex {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 27px;
+    width: 100%;
+    margin-top: 22px;
+    padding: 0px 3px;
+    }
+
+    .tick {
+        font-size: 23px;
+        margin: 9px;
+        padding: 3px;
+    }
+    .buton {
+        margin: 3px 29px;
+        padding: 24px 0px;
+    }
+
+    .btn {
+        background-color: rgb(33, 29, 241);
+        color: white;
+        font-size: 21px;
+        cursor: pointer;
+        padding: 17px 25px;
+        margin: 3px 11px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btn2 {
+        background-color: orangered;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 17px 8px;
+        margin: 0px 2px;
+        border: rgb(187, 3, 3);
+    }
+
+    .firstp {
+        justify-content: center;
+        display: flex;
+        /* float: right; */
+        padding-top: 3px;
+        /* width: 50%; */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first {
+        width: 400px;
+        height: 230px;
+    }
+/*3rd portion*/
+    .container-bg {
+        background-color: rgb(75, 99, 233);
+    }
+
+    .bign {
+        align-items: center;
+        flex-direction: column;
+        /* justify-content: center; */
+        display: flex;
+        margin: 0px 3px;
+        padding: 20px 0px;
+    }
+
+    .logos {
+        margin: 15px;
+    }
+    /*4th portion*/
+    .next {
+        margin: 19px 7px;
+        height: 600px;
+    }
+
+    .sce {
+        width: 100%;
+    }
+
+    .hh {
+        margin: 12px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+
+    .para2 {
+        margin: 0px 6px;
+        font-size: 21px;
+    }
+
+    .secondp {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        /* justify-content: center; */
+        float: right;
+        padding-top: 14px;
+        width: 100%;
+    }
+
+    .second {
+        width: 328px;
+        height: 221px;
+    }
+/*5th portion*/
+.container-bg2 {
+    height: 550px;
+    background-color: rgb(245, 146, 34);
+    color: white;
+}
+
+.img3 {
+    margin-left: 0px;
+    padding-top: 9px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.third {
+    width: 328px;
+    height: 221px;
+}
+
+.para3 {
+    margin: 0px 0px;
+    padding: 2px 0px;
+}
+
+.hh3 {
+    padding: 6px;
+    /* margin: 0px; */
+    font-size: 36px;
+}
+
+.pa3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+/*6th portion*/
+.for {
+    height: 550px;
+}
+
+.four {
+    width: 100%;
+}
+
+.hh4 {
+    font-size: 33px;
+}
+
+.para4 {
+    font-size: 20px;
+    margin: 0px 3px;
+}
+
+.fourthp {
+    padding-top: 170px;
+    width: 100%;
+}
+
+.fourth {
+    width: 328px;
+    height: 215px;
+}
+/*7th portion*/
+.ser {
+    text-align: center;
+    padding-top: 36px;
+    margin-bottom: 70px;
+    font-size: 37px;
+    position: relative;
+    color: white;
+    font-weight: lighter;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+    grid-gap: 100px;
+}
+
+.ser-h {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.ser-p {
+    font-weight: lighter;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin: 17px;
+}
+
+.butonfo {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 50px 3px;
+}
+
+.btnf1 {
+    background-color: rgb(158, 156, 250);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 21px 31px;
+    margin: 0px 8px;
+    border: rgb(187, 3, 3);
+}
+
+.btnf2 {
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 23px 36px;
+    margin: 0px 8px;
+    border: rgb(187, 3, 3);
+}
+/*8th portion*/
+.fifth-h {
+    margin: 4px 10px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    /* Adds some spacing between grid items */
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-item img {
+    margin: 15px auto;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.desc {
+    text-align: center;
+    font-size: 21px;
+}
+
+.hfif {
+    font-size: 26px;
+    text-align: center;
+    margin: 15px 0px;
+}
+/*9th portion*/
+.container-bgp {
+    background-color: rgb(245, 146, 34);
+    height: 600px;
+    color: white;
+}
+.pp0 {
+    font-size: 17px;
+    padding: 0px 15px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.hh5 {
+    padding: 16px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    margin: 14px;
+    padding: 25PX;
+}
+
+.ph1 {
+    height: 86px;
+    width: 97px;
+    border-radius: 50%;
+}
+/*10th portion*/
+.container-bg3 {
+    background-color: rgb(203, 203, 236);
+}
+
+.seven {
+    height: 50%;
+
+}
+
+.hed {
+    text-align: center;
+    font-size: 28px;
+    padding: 22px;
+}
+
+.p-hed {
+    text-align: center;
+    font-size: 23px;
+    margin: 4px;
+    font-weight: bolder;
+}
+
+.wrapper {
+    max-width: 410px;
+    margin: 0px auto;
+}
+
+.accordion {
+    background-color: whitesmoke;
+    color: orangered;
+    cursor: pointer;
+    font-size: 19px;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.accordion i {
+    font-size: 1.6rem;
+}
+
+.panel {
+    padding: 0 2rem 1.5rem 2rem;
+    overflow: hidden;
+}
+
+.panel p {
+    color: black;
+    line-height: 1.3;
+    font-size: 1.1rem;
+}
+
+.fa-plus {
+    color: white;
+    border-radius: 60%;
+    background-color: orangered;
+}
+/*11th portion*/
+.img8 {
+   padding: 5px 30px;
+    width: 100%;
+}
+
+.eight {
+    width: 330px;
+    height: 221px;
+}
+
+.para8 {
+    text-align: center;
+    padding: 3px 8px;
+}
+
+.hh8 {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.pa8 {
+    padding: 30px;
+    font-size: 21px;
+}
+
+.butonfor {
+    display: flex;
+    padding: 9px 1px;
+}
+
+.btnf3 {
+    background-color: rgb(158, 156, 250);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 14px 22px;
+    margin: 0px 3px;
+    border: rgb(187, 3, 3);
+}
+
+.btnf4 {
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 14px 22px;
+    margin: 0px 3px;
+    border: rgb(187, 3, 3);
+}
+/*12th portion*/
+.container-bg9 {
+    max-width: 768px;
+    background-color: rgb(75, 99, 233);
+    padding-bottom: 10px;
+}
+
+.hh9 {
+    padding: 18px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.pp9 {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+.sevices {
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 11px 2px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: bisque;
+    transition: 0.4s;
+}
+
+.card .icon1 {
+    border-radius: 27%;
+    color: white;
+    background-color: orangered;
+    font-size: 37px;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    font-weight: lighter;
+    font-size: 21px;
+    margin-bottom: 13px;
+    color: #29292e;
+}
+
+.card p {
+    font-size: 10px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+/*13th portion*/
+footer {
+    padding: 0px;
+}
+
+.pp10 {
+    color: rgb(111, 111, 240);
+}
+
+.container-bg11 {
+    background-color: #29292e;
+}
+
+.pp12 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+}
+@media screen and (max-width: 425px) {
+    .container {
+        max-width: 310px;
+        margin: 0px auto;
+        
+    }
+    .container-nav {
+        height: 100%;
+    }
+
+    nav ul {
+        padding-top: 15px;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav li {
+        margin: 7px;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .nav li a {
+        font-size: 25px;
+        text-decoration: none;
+        padding: 0px 35px;
+        color: black;
+    }
+/*2nd portion*/
+    .container-fir {
+        width: 100%;
+        margin: 0px auto;
+        height: 847px;
+    }
+
+    .firtex {
+        padding-left: 11px;
+        padding-top: 40px;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .text {
+        font-size: 23px;
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    .tick {
+        font-size: 22px;
+        margin: 15px 0px;
+        padding: 0px;
+    }
+
+    .fa-check {
+        color: orangered;
+        margin-right: 10px;
+    }
+
+    .buton {
+        width: 100%;
+        margin: 0px 10px;
+        padding: 0px 15px;
+    }
+
+    .btn {
+        background-color: rgb(33, 29, 241);
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 15px 21px;
+        margin: 0px 3px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btn2 {
+        background-color: orangered;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 15px 3px;
+        margin: 22px 2px;
+        border: rgb(187, 3, 3);
+    }
+
+    .firstp {
+      align-items: center;
+      width: 100%;
+    }
+    .first {
+        width: 280px;
+        height: 230px;
+    }
+/*3rd Portion*/ 
+    .container-bg {
+        background-color: rgb(75, 99, 233);
+    }
+    .bign {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        margin: 0px 11px;
+        padding: 1px 0px;
+    }
+
+    .logos {
+        margin: 22px 1px;
+    }
+/*4th Portion*/
+    .next {
+        width: 100%;
+        height: 633px;
+    }
+
+    .sce {
+        width: 100%;
+    }
+
+    .hh {
+        margin: 11px;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+
+    .para2 {
+        width: 100%;
+        margin: 0px 3px;
+        font-size: 21px;
+        padding: 0px 0px;
+    }
+
+    .secondp {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .second {
+        width: 280px;
+        height: 230px;
+    }
+/*5THh Portion*/
+    .container-bg2 {
+        max-width: 425px;
+        background-color: rgb(245, 146, 34);
+        height: 50%;
+        color: white;
+    }
+
+    .img3 {
+         width: 100%;
+    }
+
+    .third {
+        width: 280px;
+        height: 230px;
+    }
+
+    .para3 {
+        margin: 0px 0px;
+        padding: 7px 2px;
+    }
+
+    .hh3 {
+        margin: 8px 5px;
+        font-size: 24px;
+    }
+
+    .pa3 {
+        padding: 0px 14px;
+        font-size: 20px;
+    }
+/*6th Portion*/
+    .for {
+       height: 570px;
+    }
+
+    .four {
+        width: 100%;
+    }
+
+    .hh4 {
+        font-size: 33px;
+    }
+
+    .para4 {
+        font-size: 21px;
+        margin: 0px 3px;
+    }
+
+    .fourthp {
+        padding-top: 255px;
+        width: 100%;
+    }
+
+    .fourth {
+        width: 288px;
+        height: 210px;
+    }
+ /*7th portion */
+    .ser {
+        text-align: center;
+        padding-top: 22px;
+        margin-bottom: 90px;
+        font-size: 36px;
+        position: relative;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+        grid-gap: 60px;
+    }
+
+    .ser-h {
+        font-size: 28px;
+        text-align: center;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .ser-p {
+        font-weight: lighter;
+        font-size: 19px;
+        text-align: center;
+        color: white;
+        margin: 18px;
+    }
+
+    .butonfo {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        padding: 17px 0px;
+    }
+
+    .btnf1 {
+        background-color: rgb(158, 156, 250);
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 13px 16px;
+        margin: 0px 2px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btnf2 {
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 16px 16px;
+        margin: 0px 2px;
+        border: rgb(187, 3, 3);
+    }
+    /*8th portion */
+    .fifth-h {
+        margin: 0px auto;
+        font-weight: lighter;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* Displays 3 columns */
+        grid-gap: 6px;
+        /* Adds some spacing between grid items */
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .grid-item img {
+        margin: 5px 90px;
+        max-width: 46%;
+        max-height: 30%;
+    }
+
+    .desc {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .hfif {
+        font-size: 27px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+/*9th portion*/
+.container-bgp {
+    background-color: rgb(245, 146, 34);
+    height: 580px;
+    color: white;
+}
+    .pp0 {
+        font-size: 17px;
+        padding: 0px 11px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .hh5 {
+        padding: 26px;
+        font-size: 22px;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        color: black;
+        margin: 10px;
+        padding: 11Px;
+    }
+
+    .ph1 {
+        height: 85px;
+        width: 100px;
+        border-radius: 50%;
+    } 
+    /*10th portion*/
+    .container-bg3 {
+        background-color: rgb(203, 203, 236);
+    }
+
+    .seven {
+        height: 50%;
+
+    }
+
+    .hed {
+        text-align: center;
+        font-size: 21px;
+        padding: 15px;
+    }
+
+    .p-hed {
+        text-align: center;
+        font-size: 17px;
+        margin: 5px;
+    }
+
+    .wrapper {
+        max-width: 320px;
+        margin: 0px auto;
+    }
+
+    .accordion {
+        background-color: whitesmoke;
+        color: orangered;
+        cursor: pointer;
+        font-size: 22px;
+        width: 100%;
+        padding: 2rem 2.5rem;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .accordion i {
+        font-size: 1.5rem;
+    }
+
+    .panel {
+        padding: 0 2rem 1.5rem 2rem;
+        overflow: hidden;
+    }
+
+    .panel p {
+        color: black;
+        line-height: 1.3;
+        font-size: 1.1rem;
+    }
+
+    .fa-plus {
+        color: white;
+        border-radius: 60%;
+        background-color: orangered;
+    }
+/*11th portion*/
+    .img8 {
+        padding-top: 8px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .eight {
+        width: 280px;
+        height: 220px;
+    }
+
+    .para8 {
+     width: 100%;
+    }
+
+    .hh8 {
+        font-weight: bolder;
+        font-size: 22px;
+    }
+
+    .pa8 {
+        padding: 18px;
+        font-size: 21px;
+    }
+
+    .butonfor {
+        display: flex;
+        justify-content: center;
+        padding: 14px 0px;
+    }
+
+    .btnf3 {
+        background-color: rgb(158, 156, 250);
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 11px 13px;
+        margin: 0px 4px;
+        border: rgb(187, 3, 3);
+    }
+
+    .btnf4 {
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 11px 17px;
+        margin: 0px 3px;
+        border: rgb(187, 3, 3);
+    }
+/*12th portion*/
+    .container-bg9 {
+        max-width: 425px;
+        background-color: rgb(75, 99, 233);
+        padding-bottom: 10px;
+    }
+
+    .hh9 {
+        padding: 25px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+
+    .pp9 {
+        text-align: center;
+        color: white;
+        font-size: 21px;
+    }
+
+    .sevices {
+        max-width: 207px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 7px auto;
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        margin: 8px;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        background-color: bisque;
+        transition: 0.4s;
+    }
+
+    .card .icon1 {
+        border-radius: 30%;
+        color: white;
+        background-color: orangered;
+        font-size: 39px;
+        margin-bottom: 12px;
+    }
+
+    .card h2 {
+        font-weight: lighter;
+        font-size: 20px;
+        margin-bottom: 8px;
+        color: #29292e;
+    }
+
+    .card p {
+        font-size: 11px;
+        margin-bottom: 26px;
+        line-height: 1.5;
+    }
+/*13th portion*/
+    footer {
+        padding: 0px;
+    }
+
+    .pp10 {
+        color: rgb(111, 111, 240);
+    }
+
+    .container-bg11 {
+        padding: 14px;
+        background-color: #29292e;
+    }
+
+    .pp12 {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+    }
+}
